@@ -17,9 +17,7 @@
             <label for="<%= filter %>"><%= filter %></label>
             <select class="custom-select d-block" id="<%= filter %>" name="<%= filter %>">
               <option value="">Unknown</option>
-              <% for option in options %>
-              <option value="<%= option %>"><%= option %></option>
-              <% end %>
+              <%= options_for_select(options, @criteria[filter]) %>
             </select>
           </li>
           <% end %>
