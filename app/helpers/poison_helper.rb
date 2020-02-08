@@ -1,0 +1,2 @@
+module PoisonHelper
+end

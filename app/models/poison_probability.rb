@@ -15,7 +15,7 @@ class PoisonProbability
   # return float probabilty
   def probability
     return 0 if total == 0
-    @poisonous.to_f / total
+    ((@poisonous.to_f / total) * 100).to_i
   end
 
   # expect ActiveRelation of Mushroom

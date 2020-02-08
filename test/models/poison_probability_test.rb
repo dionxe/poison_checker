@@ -4,7 +4,7 @@ class PoisonProbabilityTest < ActiveSupport::TestCase
 
   test "probabily distribution" do
     p = PoisonProbability.new(2, 3)
-    assert_equal(0.4, p.probability)
+    assert_equal(40, p.probability)
   end
 
   test "division by zero" do
