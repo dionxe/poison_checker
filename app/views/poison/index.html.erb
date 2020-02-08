@@ -14,10 +14,11 @@
           </li>
           <% for filter, options in @filters %>
           <li class="list-group-item">
-            <label for="<%= filter %>"><%= filter %></label>
+            <label for="<%= filter %>"><%= t(filter) %></label>
             <select class="custom-select d-block" id="<%= filter %>" name="<%= filter %>">
               <option value="">Unknown</option>
-              <%= options_for_select(options, @criteria[filter]) %>
+              <% optionsLabel = options.map { |val| [t("select.#{filter}.#{val}"), val] } %>
+              <%= options_for_select(optionsLabel, @criteria[filter]) %>
             </select>
           </li>
           <% end %>
@@ -30,7 +31,7 @@
 
     <div class="col-md-8">
       <h4 class="mb-3">Results</h4>
-      <p>You have an <strong><%= @poison.probability %>%</strong> chance of being poisoned by this mushroom</p>
+      <p>Your query matches <%= @poison.total %> mushrooms of which <strong><%= @poison.probability %>%</strong> are poisonous</p>
       <p class="text-muted"><small>Disclaimer: do not eat actual mushrooms based on this test</small></p>
     </div>
   </div>

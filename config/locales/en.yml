@@ -30,4 +30,154 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  select:
+    cap_shape:
+      b: Bell
+      c: Conical
+      x: Convex
+      f: Flat
+      k: Knobbed
+      s: Sunken
+    cap_surface:
+      f: Fibrous
+      g: Grooves
+      y: Scaly
+      s: Smooth
+    cap_color:
+      n: Brown
+      b: Buff
+      c: Cinnamon
+      g: Gray
+      r: Green
+      p: Pink
+      u: Purple
+      e: Red
+      w: White
+      y: Yellow
+    bruises:
+      t: Yes
+      f: No
+    odor:
+      a: Almond
+      l: Anise
+      c: Creosote
+      y: Fishy
+      f: Foul
+      m: Musty
+      n: None
+      p: Pungent
+      s: Spicy
+    gill_attachment:
+      a: Attached
+      d: Descending
+      f: Free
+      n: Notched
+    gill_spacing:
+      c: Close
+      w: Crowded
+      d: Distant
+    gill_size:
+      b: Broad
+      n: Narrow
+    gill_color:
+      k: Black
+      n: Brown
+      b: Buff
+      h: Chocolate
+      g: Gray
+      r: Green
+      o: Orange
+      p: Pink
+      u: Purple
+      e: Red
+      w: White
+      y: Yellow
+    stalk_shape:
+      e: Enlarging
+      t: Tapering
+    stalk_root:
+      b: Bulbous
+      c: Club
+      u: Cup
+      e: Equal
+      z: Rhizomorphs
+      r: Rooted
+      ?: Missing
+    stalk_surface_above_ring:
+      f: Fibrous
+      y: Scaly
+      k: Silky
+      s: Smooth
+    stalk_surface_below_ring:
+      f: Fibrous
+      y: Scaly
+      k: Silky
+      s: Smooth
+    stalk_color_above_ring:
+      n: Brown
+      b: Buff
+      c: Cinnamon
+      g: Gray
+      o: Orange
+      p: Pink
+      u: Purple
+      e: Red
+      w: White
+      y: Yellow
+    stalk_color_below_ring:
+      n: Brown
+      b: Buff
+      c: Cinnamon
+      g: Gray
+      o: Orange
+      p: Pink
+      u: Purple
+      e: Red
+      w: White
+      y: Yellow
+    veil_type:
+      p: Partial
+      u: Universal
+    veil_color:
+      n: Brown
+      o: Orange
+      w: White
+      y: Yellow
+    ring_number:
+      n: None
+      o: One
+      t: Two
+    ring_type:
+      c: Cobwebby
+      e: Evanescent
+      f: Flaring
+      l: Large
+      n: None
+      p: Pendant
+      s: Sheating
+      z: Zone
+    spore_print_color:
+      k: Black
+      n: Brown
+      b: Buff
+      h: Chocolate
+      r: Green
+      o: Orange
+      u: Purple
+      w: White
+      y: Yellow
+    population:
+      a: Abundant
+      c: Clustered
+      n: Numerous
+      s: Scattered
+      v: Several
+      y: Solitary
+    habitat:
+      g: Grasses
+      l: Leaves
+      m: Meadows
+      p: Paths
+      u: Urban
+      w: Waste
+      d: Woods
