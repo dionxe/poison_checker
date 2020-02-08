@@ -1,24 +1,23 @@
-# README
+Rails application for job application. Includes some tests for models
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Get started
+```sh
+$ git clone https://github.com/dafontaine/poison_checker
+$ cd poison_checker
+$ bundle install
+$ rails db:setup
+$ rails server
+```
 
-Things you may want to cover:
+# Run tests
+```sh
+$ rails test
+```
 
-* Ruby version
+# Requirements
+- Ruby 2.5
+- Bundler
+- SQLite 3 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Known issues
+- Incomplete test coverage
