@@ -9,6 +9,9 @@
       <h4 class="d-flex justify-content-between align-items-center mb-3">Your mushroom</h4>
       <form>
         <ul class="list-group mb-3">
+          <li class="list-group-item">
+            <button type="submit" class="btn btn-primary">Calculate</button>
+          </li>
           <% for filter, options in @filters %>
           <li class="list-group-item">
             <label for="<%= filter %>"><%= filter %></label>

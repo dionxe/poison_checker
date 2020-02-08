@@ -3,8 +3,8 @@ class PoisonProbability
   attr_reader :poisonous, :edible
 
   def initialize(poisonous, edible)
-    @poisonous = poisonous
-    @edible = edible
+    @poisonous = poisonous.to_i
+    @edible = edible.to_i
   end
 
   # return int total
